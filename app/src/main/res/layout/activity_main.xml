@@ -3,13 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
-<com.daniel.logincustomview.LoginView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerVertical="true">
-
-</com.daniel.logincustomview.LoginView>
+    <L
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:inputTextHint="@string/user_name"
+        app:passTextHint="@string/Password"
+        app:buttonText="@string/click"
+        app:headerText="@string/login"
+        app:buttonTextColor="@color/black">
+    </L>
 
 </RelativeLayout>
