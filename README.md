@@ -20,4 +20,4 @@ dependencies {
 	}
 ```
 ### Usage
-![](assets/LoginCustomViewGif.gif)
+![](LoginCustomViewGif.gif)
