@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/DanielZusev/LoginCustomView.svg)](https://jitpack.io/#DanielZusev/LoginCustomView)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# LoginCustomView
+# CustomLoginView
 A simple custom login view
 
 ## Setup
