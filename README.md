@@ -17,7 +17,7 @@ allprojects {
 #### Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.DanielZusev:LoginCustomView:1.00.01'
+	        implementation 'com.github.DanielZusev:LoginViewCustom:1.00.01'
 	}
 ```
 ## Usage
