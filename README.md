@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # CustomLoginView
-A simple custom login view
+An Android library that implements a simple custom login view
 
 ## Setup
 #### Add it in your root build.gradle at the end of repositories:
@@ -25,11 +25,12 @@ dependencies {
 
 ## Xml
 ```
-app:inputTextHint="@string/user_name"
-app:passTextHint="@string/Password"
-app:buttonText="@string/click"
-app:headerText="@string/login"
-app:buttonTextColor="@color/black"	
+<com.daniel.logincustomview.LoginView
+	app:inputTextHint="@string/user_name"
+	app:passTextHint="@string/Password"
+	app:buttonText="@string/click"
+	app:headerText="@string/login"
+	app:buttonTextColor="@color/black">	
 ```
 
 ## Java
