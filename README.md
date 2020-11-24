@@ -1,7 +1,7 @@
+[![](https://jitpack.io/v/DanielZusev/LoginCustomView.svg)](https://jitpack.io/#DanielZusev/LoginCustomView)
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # LoginCustomView
-this is description
+A custom login view
 
 ## Setup
 #### Add it in your root build.gradle at the end of repositories:
@@ -16,6 +16,8 @@ allprojects {
 #### Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.DanielZusev:LoginCustomView:Tag'
+	        implementation 'com.github.DanielZusev:LoginCustomView:1.00.01'
 	}
 ```
+### Usage
+![](assets/LoginCustomViewGif.gif)
