@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/login_header"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+       >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/login_user_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/text_box_underline_selector"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/user_name"
+        android:inputType="text"
+        android:autofillHints="User name"
+        android:drawablePadding="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="serif-monospace">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="Password"
+        android:hint="@string/Password"
+        android:inputType="numberPassword"
+        android:background="@drawable/text_box_underline_selector"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="serif-monospace">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/click"
+        android:fontFamily="serif-monospace"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        >
+
+    </Button>
+</LinearLayout>

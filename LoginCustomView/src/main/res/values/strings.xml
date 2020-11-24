@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="login">Login</string>
+    <string name="click">Click</string>
+    <string name="user_name">User Name</string>
+    <string name="Password">Password</string>
+</resources>
