@@ -6,15 +6,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
-    <L
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:inputTextHint="@string/user_name"
-        app:passTextHint="@string/Password"
-        app:buttonText="@string/click"
-        app:headerText="@string/login"
-        app:buttonTextColor="@color/black">
-    </L>
+<
+<!--        android:id="@+id/login"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:inputTextHint="@string/user_name"-->
+<!--        app:passTextHint="@string/Password"-->
+<!--        app:buttonText="@string/click"-->
+<!--        app:headerText="@string/login"-->
+<!--        app:buttonTextColor="@color/black">-->
+
 
 </RelativeLayout>
