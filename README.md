@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/DanielZusev/LoginCustomView.svg)](https://jitpack.io/#DanielZusev/LoginCustomView)
+[![](https://jitpack.io/v/DanielZusev/LoginViewCustom.svg)](https://jitpack.io/#DanielZusev/LoginViewCustom)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # CustomLoginView
